@@ -63,12 +63,36 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="OrderList.xaml.cs">
+      <DependentUpon>OrderList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPage.xaml.cs">
+      <DependentUpon>OrderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Popups\AdvancedOrder.xaml.cs">
+      <DependentUpon>AdvancedOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tables.cs" />
+    <Compile Include="Types\Customer.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="OrderList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Popups\AdvancedOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Types\OrderList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +117,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Images\21525004-illustration-de-dessin-anime_prcent_26769_prcent_3B-d-un-hot-dog-en-agitant.png" />
+    <Resource Include="Resources\Images\red-arrow-png-transparent-2.png" />
+    <Resource Include="Resources\Images\5a355b1692ab84.2317754115134461666008 %281%29.png" />
+    <Resource Include="Resources\Images\hotdog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\hotdog_stand.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GuiProgrammering"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Hot Dog - Ordering" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" MinWidth="438" MinHeight="436">
+    <Grid Name="grid">
+
     </Grid>
 </Window>
